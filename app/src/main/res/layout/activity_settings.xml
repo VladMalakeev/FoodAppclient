@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tk.tracking_app.devicetrackingproject.activities.SettingsActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:textColor="@color/colorAccent"
+        android:text="Тут вы можете указать номер телефона, на который вам позвонит курьер\n(Если номер не указан, то заказ не отправится)"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:minWidth="240dp"
+        android:layout_centerInParent="true"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/form_style"
+        android:layout_centerVertical="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_accept"
+        android:text="Сохранено"
+        android:padding="10dp"
+        android:background="@drawable/common_button_style"
+        android:layout_below="@id/editText"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="myscreen_text">Myscreen Text</string>
+    <string name="text_make_order">Make an order</string>
+    <string name="show_latitude">gg</string>
+    <string name="show_longitude">wp</string>
+    <string name="show_menu1">Состав:\n</string>
+    <string name="show_menu2">\nЦена:\n</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
